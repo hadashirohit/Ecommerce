@@ -1,0 +1,137 @@
+@import url("https://use.typekit.net/ddc5cje.css");
+
+.categories{
+    margin: 50px;
+}
+
+.categories__wrapper,
+.categories__wrapper>div,
+.categories__wrapper .common__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.categories__list{
+    border-radius: 8px
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: none
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none
+}
+.heading__wrapper {
+    position: relative;
+    text-align: center;
+    padding-bottom: 12px;
+    margin-bottom: 36px
+}
+.heading__wrapper:after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #2fbccc;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+.heading__wrapper .heading {
+    color: #242330
+}
+.heading__wrapper .subHeading {
+    color: #4e4b66
+}
+.categories__list img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto
+}
+.categories__wrapper {
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 32px
+}
+.categories__wrapper>div {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 32px
+}
+.categories__wrapper--left,
+.categories__wrapper--right {
+    width: calc(38.5% - 10.66px)
+}
+
+.categories__wrapper--center {
+    width: calc(23% - 10.66px)
+}
+.categories__wrapper .common__flex {
+    justify-content: space-between;
+    gap: 32px
+}
+.categories__wrapper .common__flex .categories__list {
+    width: calc(50% - 16px)
+}
+.categories__wrapper .common__flex .categories__list img {
+    min-height: 12.96vw;
+    height: 100%
+}
+.categories__list {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    transition: all .3s linear
+}
+.categories__list--title {
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+    position: absolute;
+    top: auto;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    transform: translate(0, 0)
+}
+.categories__list--mangalsutra .categories__list--title {
+    top: 50%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    bottom: auto
+}
+.categories__list img {
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s linear
+}
+.categories__list:hover img,
+.categories__list:focus img {
+    transform: scale(1.1)
+}
+.categories__list--mangalsutra img,
+.categories__list--bracelets img {
+    min-height: 15.62vw;
+    height: 100%
+}
+.categories__list--pendants img {
+    min-height: 30vw;
+    height: 100%
+}
+
